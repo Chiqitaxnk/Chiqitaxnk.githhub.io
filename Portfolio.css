@@ -1,0 +1,426 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.ontwerpen{
+    width: 400px;
+    height: auto; 
+    margin-left: 10vw;
+}
+
+.title {
+  text-align: center;
+  padding: 3%;
+}
+
+/* Afbeeldingen projecten */
+#Afbeelding_1 {
+    /* border: 1px solid green; */
+    padding: 8px;  
+    box-sizing: border-box;
+    width: 500px;
+    height: auto;
+    /* margin: 5em; */
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+
+#Afbeelding_2 {
+  /* border: 1px solid green; */
+  padding: 8px;  
+  box-sizing: border-box;
+  width: 500px;
+  height: auto;
+  /* margin: 5em; */
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
+#Afbeelding_3 {
+  /* border: 1px solid green; */
+  padding: 8px;  
+  box-sizing: border-box;
+  width: 500px;
+  height: auto;
+  /* margin: 5em; */
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+}
+
+#Afbeelding_4 {
+  /* border: 1px solid green; */
+  padding: 8px;  
+  box-sizing: border-box;
+  width: 500px;
+  height: auto;
+  /* margin: 5em; */
+  grid-column: 2 / 3;
+  grid-row: 7 / 8;
+}
+
+.projectnaam {
+  margin: 5em;
+  padding: 0;
+}
+  
+body {
+  display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw 0vw;
+    grid-template-rows: 45vh 20vh 45vh 45vh 45vh 5vh 45vh 45vh auto;
+}
+
+
+#projectnaam_1 {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+
+#projectnaam_2 {
+  grid-column: 4/ 5;
+  grid-row: 4 / 5;
+}
+
+#projectnaam_3 {
+  grid-column: 4/ 5;
+  grid-row: 5 / 6;
+}
+
+#projectnaam_4 {
+  grid-column: 4 / 5;
+  grid-row: 7 / 8;
+}
+
+.title {
+  grid-column: 2 / 5;
+  grid-row: 1 / 2;
+}
+
+#info_1 {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+  margin-top: 50px;
+
+}
+
+#info_titel {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+#text_1 {
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+  margin-top: 50px;
+}
+
+#info_2 {
+  grid-column: 4 / 5;
+  grid-row: 4 / 5;
+  margin-top: 50px;
+}
+
+#info_3 {
+  grid-column: 4 / 5;
+  grid-row: 5 / 6;
+  margin-top: 50px;
+}
+
+#info_4 {
+  grid-column: 4 / 5;
+  grid-row: 7 / 8;
+  margin-top: 50px;
+}
+
+#leer {
+  grid-column: 2 / 4;
+  grid-row: 3;
+  margin-top: 140px;
+  margin: center;
+}
+
+/* Opleidingen */
+#opleidingen {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5; 
+}
+
+#opleiding1 {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-top: 40px;
+}
+
+#havo {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-top: 70px;
+  margin-left: 45px;
+}
+#vakken {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-top: 95px;
+  margin-left: 45px;
+}
+
+#geslaagd {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-top: 115px;
+  margin-left: 45px;
+}
+
+#opleiding2 {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-top: 150px;
+}
+
+#opleiding {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-top: 180px;
+  margin-left: 45px;
+}
+
+#profiel {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-top: 205px;
+  margin-left: 45px;
+}
+
+#p {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-top: 220px;
+  margin-left: 45px;
+}
+
+#projecten {
+  grid-column: 2 / 4;
+  grid-row: 6 / 7;
+}
+
+#text_2 {
+  grid-column: 2 / 3;
+  grid-row: 6  / 7;
+  margin-top: 50px;
+}
+
+#Cuvi {
+  grid-column: 3 / 5;
+  grid-row: 6 / 7;
+  margin-left: 70px;
+}
+
+#samenwerken {
+  grid-column: 3 / 4;
+  grid-row: 6 / 7;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+#titelc {
+  grid-column: 3 / 5;
+  grid-row: 6 / 7;
+  margin-left: 400px;
+}
+
+#contact_opnemen {
+  grid-column: 4 / 5;
+  grid-row: 6 / 7;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+#contact {
+  grid-column: 4 / 5;
+  grid-row: 6 / 7;
+  width: 100px;
+  height: auto;
+  margin-top: 120px;
+  margin-left: 120px;
+}
+
+#interesse {
+  grid-column: 4 / 6;
+  grid-row: 6 / 7;
+  margin-top: 50px;
+  margin-left: 95px;
+
+}
+
+#tel {
+  grid-column: 4 / 5;
+  grid-row: 6 / 7;
+  margin-top: 70px;
+  margin-left: 95px;
+}
+
+#mail {
+  grid-column: 4 / 5;
+  grid-row: 6 / 7;
+  margin-top: 90px;
+  margin-left: 95px;
+}
+
+#Cv {
+  grid-column: 3 / 4;
+  grid-row: 6 / 7;
+  width: 110px;
+  height: auto;
+  margin-top: 120px;
+  margin-left: 120px;
+}
+
+#hoe {
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+}
+
+
+#opsomming_titel {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+}
+
+#opsomming {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-top: 25px;
+}
+
+#hobbies_titel {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-top: 100px;
+}
+
+#hobbies {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-top: 150px;
+}
+
+#hobbies_2 {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-top: 230px;
+}
+
+#visie {
+  grid-column: 2 / 4;
+  grid-row: 5 / 6;
+}
+
+#cv_info {
+  grid-column: 4 / 6;
+  grid-row: 3 / 4;
+}
+
+#cv_afb {
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
+  margin-left: 60px;
+}
+
+.cv {
+  width: 700px;
+  height: auto;
+}
+
+#scala {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  width: 200px;
+  height: auto;
+  margin-left: 400px;
+}
+
+#HR {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  width: 60px;
+  height: auto;
+  margin-left: 400px;
+  margin-top: 180px;
+}
+
+#keuzevak_titel {
+  grid-column: 2 / 4;
+  grid-row: 5 / 6;
+}
+
+#keuzevakken {
+  grid-column: 2 / 4;
+  grid-row: 5 / 6;
+  margin-top: 40px;
+}
+
+.balk {
+  /* background-color: aquamarine; */
+  border-top: solid rgb(123, 177, 123);
+  
+}
+
+#visie_tekst {
+  grid-column: 2 / 4;
+  grid-row: 5 / 6;
+  margin-top: 50px;
+}
+
+#button {
+  grid-column: 2 / 4;
+  grid-row: 3;
+  margin-top: 200px;
+  /* text-decoration: rgb(123, 181, 117);
+  text-decoration-color: rgb(123, 181, 117); */
+  color: rgb(123, 177, 123);
+}
+
+#uitreiking {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+  margin-left: 100px;
+  margin-top: 50px;
+  height: 10px;
+}
+
+#projects {
+  grid-column: 2 / 4;
+  grid-row: 6 / 7;
+  width: 100px;
+  height: auto;
+  margin-top: 120px;
+  margin-left: 80px;  
+}
+
+#zelf {
+  grid-column: 5 / 6;
+  grid-row: 1 / 2;
+  width: 210px;
+  height: auto;
+  margin-left: 20px;
+}
+
+#kunst_titel {
+  grid-column: 2 / 4;
+  grid-row: 5 / 6;
+  margin-top: 200px;
+}
+
+#boek {
+ grid-column: 2 / 4;
+ grid-row: 6 / 7;
+ width: 200px;
+ height: auto;
+}
+
+#zelfportret {
+  grid-column: 2 / 4;
+ grid-row: 6 / 7;
+ width: 262px;
+ height: auto;
+ margin-left: 250px;
+}

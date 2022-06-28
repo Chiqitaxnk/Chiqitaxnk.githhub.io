@@ -1,0 +1,30 @@
+/* Menu */
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(193, 239, 198);
+  }
+  
+#navbar li {
+    float: left;
+  }
+  
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+#navbar li a:hover {
+    background-color: rgb(141, 202, 150);
+  }
+
+#navbar {
+  grid-row: 2 / 3;
+  grid-column: 1 / 7;
+}
+

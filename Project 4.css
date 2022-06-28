@@ -1,0 +1,46 @@
+/* Titel */
+.Title {
+    text-align: center;
+    padding: 3%;
+  }
+
+/* menu */
+.Menu_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(193, 239, 198);
+  }
+  
+  li .Menu_bar{
+    float: left;
+  }
+  
+  li a .Menu_bar {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover .Menu_bar {
+    background-color: rgb(141, 202, 150);
+  }
+
+  .Afbeeldingen {
+    width: 500px;
+    height: auto;
+  }
+
+  .Hotel {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+ 
